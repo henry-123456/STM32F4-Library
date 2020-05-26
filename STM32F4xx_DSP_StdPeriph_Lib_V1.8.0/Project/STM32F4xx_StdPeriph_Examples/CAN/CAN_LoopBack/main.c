@@ -78,14 +78,14 @@ int main(void)
   if (TestRx !=  FAILED)
   { /* OK */
 
-    /* Turn on LED1 */
-    STM_EVAL_LEDOn(LED1);
+    /* Turn on LED2 */
+    STM_EVAL_LEDOn(LED2);
   }
   else
   { /* KO */
 
-    /* Turn on LED2 */
-    STM_EVAL_LEDOn(LED2);
+    /* Turn on LED1 */
+    STM_EVAL_LEDOn(LED1);
   }
 
   /* Infinite loop */
