@@ -212,7 +212,7 @@ static void RTC_Config(void)
   /* Configure the RTC data register and RTC prescaler */
   RTC_InitStructure.RTC_AsynchPrediv = uwAsynchPrediv;
   RTC_InitStructure.RTC_SynchPrediv = uwSynchPrediv;
-  RTC_InitStructure.RTC_HourFormat = RTC_HourFormat_24;
+  RTC_InitStructure.RTC_HourFormat = RTC_HourFormat_12;
   RTC_Init(&RTC_InitStructure);
   
   /* Set the alarm 05h:20min:30s */
