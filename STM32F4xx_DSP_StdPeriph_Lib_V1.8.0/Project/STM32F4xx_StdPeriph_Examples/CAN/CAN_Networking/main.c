@@ -156,7 +156,7 @@ static void CAN_Config(void)
   /* CAN Baudrate = 1 MBps (CAN clocked at 30 MHz) */
   CAN_InitStructure.CAN_BS1 = CAN_BS1_6tq;
   CAN_InitStructure.CAN_BS2 = CAN_BS2_8tq;
-  CAN_InitStructure.CAN_Prescaler = 2;
+  CAN_InitStructure.CAN_Prescaler = 4;
   CAN_Init(CANx, &CAN_InitStructure);
 
   /* CAN filter init */
